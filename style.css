@@ -1,0 +1,118 @@
+
+body {
+	background-color: lightblue;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+ul {
+	font-family: 'Courier New', Courier, monospace;
+}
+  h1 {
+	font-family: 'Courier New', Courier, monospace;
+  }
+  p {
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+  }
+
+.Header {
+	font-size: 30px;
+}
+
+.obv-head {
+	font-size: 20px;
+	font-weight: bold;
+}
+.observations{
+	display: flex; 
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.ind-obv{
+	display: flex;
+	width: 45%
+}
+.obv3{
+	display: flex;
+	justify-content: center;
+}
+.sketch{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	align-items :flex-end;
+
+}
+.sketch-caption{
+	position: absolute;
+	width: 25%;
+}
+#capt {
+	text-align: center;
+	width: 100%;
+	font-size: 10px;
+}
+.header-pic {
+	display: flex;
+	flex-flow: row wrap;
+	object-fit: cover;
+	justify-content: center;
+	height: 500px;
+}
+#part1{
+	display: flex;
+	align-content: center;
+}
+#intro{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+#upper-strip{
+	display: flex;
+	justify-content: center;
+	height: 75px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: -20px;
+}
+#atsign {
+	padding-top : 15px;
+	padding-right: 10px;
+	height : 50px;
+	width: 50px;
+}
+.personas-div {
+
+	display: flex; 
+	justify-content: space-between;
+	flex-flow: row wrap;
+	row-gap: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.persona {
+	object-fit:contain;
+	width: 650px;
+}
+.persona-desc{
+	width: 400px;
+	display: flex; 
+	flex-wrap: wrap;
+	font-size:medium;
+
+}
+.mid{
+	text-align: center;
+}
+#storyboard_div {
+	display: flex;
+	justify-content: center;
+	height : 1000px;
+}
+#storyboard {
+	height: 90%;
+	width: 80%;
+}

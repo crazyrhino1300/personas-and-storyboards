@@ -35,7 +35,8 @@ ul {
 	font-size: medium;
 }
 .Header {
-	font-size: 30px;
+	font-size: 40px;
+	text-align: center;
 }
 #capt {
 	text-align: center;
@@ -116,7 +117,7 @@ ul {
 .personas-div {
 
 	display: flex; 
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-flow: row wrap;
 	row-gap: 40px;
 	padding-top: 20px;
